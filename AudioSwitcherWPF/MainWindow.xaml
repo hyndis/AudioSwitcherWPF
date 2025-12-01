@@ -3,9 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Audio Switcher" Height="200" Width="300">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
-        <Button Name="btnToggle" Width="150" Height="40" Click="btnToggle_Click" Margin="0,0,0,20">
-            Byt ljudkälla
+        <Button Name="btnToggle" Width="200" Height="40" Click="btnToggle_Click" Margin="0,0,0,10">
+            Växla ljud
         </Button>
-        <Button x:Name="btnSettings" Width="20" Height="20" Click="btnSettings_Click" Content="⚙"/>
+        <Button Name="btnSettings" Width="40" Height="40" Click="btnSettings_Click">
+            ⚙
+        </Button>
     </StackPanel>
 </Window>

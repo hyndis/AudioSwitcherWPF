@@ -4,14 +4,13 @@
         WindowStyle="None"
         AllowsTransparency="True"
         Background="Transparent"
-        Height="50"
+        Height="Auto"
         Topmost="True"
         ShowInTaskbar="False"
         ResizeMode="NoResize"
-        SizeToContent="Width">
-    <!-- Anpassa bredd automatiskt efter innehåll -->
-    <Border Background="#AA000000" CornerRadius="10" Padding="10" MinWidth="150">
-        <TextBlock Name="txtMessage" Foreground="White" FontSize="16" 
+        SizeToContent="WidthAndHeight">
+    <Border Background="#AA000000" CornerRadius="10" Padding="10" MinWidth="200" MaxWidth="400">
+        <TextBlock Name="txtMessage" Foreground="White" FontSize="14" 
                    VerticalAlignment="Center" HorizontalAlignment="Center" 
                    TextWrapping="Wrap"/>
     </Border>
