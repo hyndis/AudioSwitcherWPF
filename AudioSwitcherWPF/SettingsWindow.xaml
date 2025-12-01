@@ -1,0 +1,12 @@
+﻿<Window x:Class="AudioSwitcherWPF.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inställningar" Height="200" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Enhet 1:" Margin="0,0,0,5"/>
+        <ComboBox Name="comboBoxDevice1" Margin="0,0,0,10"/>
+        <TextBlock Text="Enhet 2:" Margin="0,0,0,5"/>
+        <ComboBox Name="comboBoxDevice2" Margin="0,0,0,10"/>
+        <Button Name="btnSave" Content="Spara" Width="100" HorizontalAlignment="Center" Click="btnSave_Click"/>
+    </StackPanel>
+</Window>
