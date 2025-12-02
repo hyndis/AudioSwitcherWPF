@@ -4,5 +4,5 @@ A simple program to let you switch between 2 audio sources, perfect for children
 
 Just pick your two sources in settings and save it. Done!
 
-This program requires .NET 10 to be installed.
-https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+Installation:
+Unpack the rar-file to a location of your choice and run audioswitcher.exe
